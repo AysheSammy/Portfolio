@@ -1,0 +1,9 @@
+header {
+  width: 100%;
+  .container__nav {
+    max-width: 1024px;
+    margin: auto;
+   @import './social';
+   @import './navigation';
+  }
+}

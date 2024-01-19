@@ -1,0 +1,29 @@
+
+.social__header {
+    position: fixed;
+    left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .social__line {
+      display: block;
+      height: calc(100vh / 2 - 5.5rem);
+      width: 1px;
+      background: $white;
+      margin-bottom: 1rem;
+    }
+
+    .social__links {
+      display: flex;
+      flex-direction: column;
+
+      a {
+          transition: .3s ease-in-out;
+        &:hover svg path {
+          fill: $primary;
+          transition: .3s ease-in-out;
+        }
+      }
+    }
+  }
